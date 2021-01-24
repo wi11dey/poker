@@ -1,0 +1,299 @@
+@font-face {
+    font-family: "Nocturno";
+    src: url("../fonts/nocturno/WF-030160-010062-001550.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Nocturno";
+    src: url("../fonts/nocturno/WF-030160-010062-001551.woff") format("woff");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Nocturno";
+    src: url("../fonts/nocturno/WF-030160-010062-001554.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Nocturno";
+    src: url("../fonts/nocturno/WF-030160-010062-001555.woff") format("woff");
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Nocturno";
+    src: url("../fonts/nocturno/WF-030160-010062-001556.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Nocturno";
+    src: url("../fonts/nocturno/WF-030160-010062-001557.woff") format("woff");
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Nocturno Display";
+    src: url("../fonts/nocturno-display/WF-030160-010062-001558.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Nocturno Display";
+    src: url("../fonts/nocturno-display/WF-030160-010062-001559.woff") format("woff");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Nocturno Display";
+    src: url("../fonts/nocturno-display/WF-030160-010062-001562.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Nocturno Display";
+    src: url("../fonts/nocturno-display/WF-030160-010062-001565.woff") format("woff");
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Dinamit";
+    src: url("../fonts/dinamit/Dinamit_Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Dinamit";
+    src: url("../fonts/dinamit/Dinamit_Extralight.woff2") format("woff2");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Dinamit";
+    src: url("../fonts/dinamit/Dinamit_Light.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Dinamit";
+    src: url("../fonts/dinamit/Dinamit_LightItalic.woff2") format("woff2");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Dinamit";
+    src: url("../fonts/dinamit/Dinamit_Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Dinamit";
+    src: url("../fonts/dinamit/Dinamit_Semibold.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Siemens Sans Black;
+    src: url("../fonts/siemens/SiemensSans_Prof_Black.5a51b396.woff2") format("woff2");
+    font-weight: 400;
+    font-display: swap;
+}
+
+#branding_header {
+    display: block;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    height: 38px;
+}
+
+#header {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+}
+
+#header-canvas {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100vmax;
+    height: 100vmax;
+    z-index: 0;
+}
+
+#header-container {
+    margin-right: 0;
+    color: #fff;
+}
+
+.region-header-third {
+    text-align: left;
+    width: 50vw;
+    height: calc(100vh - 80px);
+    margin-left: 0;
+    display: table;
+}
+
+.region-header-third > .region-inner {
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-right: 80px;
+    padding-left: 14px !important;
+}
+
+.region-header-third > .region-inner > * {
+    margin-top: 6pt;
+    margin-bottom: 6pt;
+}
+
+.region-header-third .block-boxes-os_boxes_html {
+    display: block;
+}
+
+#block-boxes-site-info.block-boxes-os_boxes_site_info {
+    min-height: auto;
+    height: auto;
+}
+
+#boxes-box-site_info {
+    height: auto;
+    background: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+#header-container a,
+#header-container h1,
+#header-container h2,
+#header-container h3,
+#header-container h4,
+#header-container h5,
+#header-container h6,
+#menu-bar .block-boxes-os_boxes_html h1,
+#menu-bar .block-boxes-os_boxes_html h2,
+#menu-bar .block-boxes-os_boxes_html h3,
+#menu-bar .block-boxes-os_boxes_html h4,
+#menu-bar .block-boxes-os_boxes_html h5,
+#menu-bar .block-boxes-os_boxes_html h6 {
+    color: inherit;
+    margin-top: 0;
+}
+
+h1, #boxes-box-site_info h1 a {
+    font-family: "Nocturno Display", "Playfair Display", serif !important;
+    font-weight: 400;
+    font-size: 38pt;
+    line-height: 0.9;
+}
+
+#boxes-box-site_info h2 {
+    margin-top: 6pt;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    font-family: "Nocturno Display", "Playfair Display", serif;
+    line-height: 1;
+}
+
+h2.block-title {
+    margin-top: 0;
+    font-size: 28pt;
+}
+
+h3 {
+    font-family: "Siemens Sans Black", "Dinamit", Arial Black, sans-serif;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-family: "Siemens Sans Black", "Dinamit", Arial, sans-serif;
+    font-weight: 400;
+}
+
+#boxes-box-site_info > .boxes-box-content > p {
+    display: none;
+}
+
+.front #page {
+    overflow-x: hidden;
+}
+
+#menu-bar .block-boxes-os_boxes_html {
+    position: relative;
+    margin-top: -80px;
+    height: 80px;
+    border: none;
+    z-index: 1;
+    color: #fff;
+}
+
+.institutions {
+    white-space: nowrap;
+}
+
+.institutions img {
+    filter: url(#institution-filter);
+    height: 50px !important;
+    width: auto;
+    opacity: 0.8;
+    padding-right: 1.5em !important;
+}
+
+#menu-bar {
+    border-bottom: none;
+}
+
+#menu-bar .block-boxes-os_boxes_media {
+    height: 0;
+}
+
+#page {
+    background: #000;
+    background-image: url("../images/bg.png");
+    background-size: 50px;
+}
+
+/* IF THE SEPARATE IE CSS FILE IS NOT USED, PREFIX CLASSES CAN BE USED THROUGHOUT THIS FILE.
+ THIS EXAMPLE IS AN IE8 OVERRIDE FOR MARGIN-BOTTOM OF AN H2 - .lt-ie8 WOULD TARGET IE7 */
+/*
+.lt-ie9 h2 {
+    margin-bottom:10px;
+}
+*/
