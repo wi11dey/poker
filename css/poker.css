@@ -1,20 +1,20 @@
 @font-face {
     font-family: "League Gothic";
-    src: url("../fonts/LeagueGothic-1.601/LeagueGothic-Regular.woff") format("woff") url("../fonts/LeagueGothic-1.601/LeagueGothic-Regular.woff2") format("woff2");
+    src: url("../fonts/LeagueGothic/LeagueGothic-Regular.woff") format("woff"), url("../fonts/LeagueGothic/LeagueGothic-Regular.woff2") format("woff2");
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: "League Gothic";
-    src: url("../fonts/LeagueGothic-1.601/LeagueGothic-Italic.woff") format("woff") url("../fonts/LeagueGothic-1.601/LeagueGothic-Italic.woff2") format("woff2");
+    src: url("../fonts/LeagueGothic/LeagueGothic-Italic.woff") format("woff"), url("../fonts/LeagueGothic/LeagueGothic-Italic.woff2") format("woff2");
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
     font-family: "League Gothic";
-    src: url("../fonts/LeagueGothic-1.601/LeagueGothic-Condensed.woff") format("woff") url("../fonts/LeagueGothic-1.601/LeagueGothic-Condensed.woff2") format("woff2");
+    src: url("../fonts/LeagueGothic/LeagueGothic-Condensed.woff") format("woff"), url("../fonts/LeagueGothic/LeagueGothic-Condensed.woff2") format("woff2");
     font-stretch: condensed;
     font-style: normal;
     font-display: swap;
@@ -22,10 +22,16 @@
 
 @font-face {
     font-family: "League Gothic";
-    src: url("../fonts/LeagueGothic-1.601/LeagueGothic-CondensedItalic.woff") format("woff") url("../fonts/LeagueGothic-1.601/LeagueGothic-CondensedItalic.woff2") format("woff2");
+    src: url("../fonts/LeagueGothic/LeagueGothic-CondensedItalic.woff") format("woff"), url("../fonts/LeagueGothic/LeagueGothic-CondensedItalic.woff2") format("woff2");
     font-stretch: condensed;
     font-style: italic;
     font-display: swap;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "League Gothic", sans-serif !important;
+    text-transform: uppercase;
+    font-style: normal;
 }
 
 #branding_header {
@@ -36,25 +42,54 @@
 
 #header-container {
     margin-left: 0;
+    margin-right: 0;
+    width: 100%;
 }
 
 .region-header-second {
     top: -8pt;
     position: relative;
-    z-index: -0;
+    z-index: 0;
+    margin-bottom: -38pt;
+}
+
+.region-header-second > .region-inner {
+    padding-top: 0;
+}
+
+.slide {
+    min-height: 0 !important;
+}
+
+.caption {
+    color: #fff;
+}
+
+.caption * {
+    color: inherit !important;
+}
+
+.slidecontrol > li {
+    background: transparent !important;
+    text-shadow: 0px 1px 5px black;
+}
+
+.slidecontrol > li:first-child,
+.slidecontrol > li:last-child {
+    display: none;
 }
 
 .region-header-third {
     text-align: left;
 }
 
-.region-header-third > .region-inner {
-    padding-top: 0;
-}
-
 #boxes-box-site_info {
     background: none;
     padding-left: 0;
+}
+
+#boxes-box-site_info a {
+    font-family: inherit;
 }
 
 /* IF THE SEPARATE IE CSS FILE IS NOT USED, PREFIX CLASSES CAN BE USED THROUGHOUT THIS FILE.
