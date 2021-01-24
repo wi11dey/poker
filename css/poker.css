@@ -30,10 +30,31 @@
 
 #branding_header {
     display: block;
-    position: absolute;
-    width: 100%;
+    position: relative;
     z-index: 2;
-    height: 38px;
+}
+
+#header-container {
+    margin-left: 0;
+}
+
+.region-header-second {
+    top: -8pt;
+    position: relative;
+    z-index: -0;
+}
+
+.region-header-third {
+    text-align: left;
+}
+
+.region-header-third > .region-inner {
+    padding-top: 0;
+}
+
+#boxes-box-site_info {
+    background: none;
+    padding-left: 0;
 }
 
 /* IF THE SEPARATE IE CSS FILE IS NOT USED, PREFIX CLASSES CAN BE USED THROUGHOUT THIS FILE.
